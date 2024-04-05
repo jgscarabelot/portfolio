@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Projetos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVUnJ09ohBJgLrXTo8eBKSoGKbXQt90BBDjw&usqp=CAU" type="image/x-icon">
     <meta charset="UTF-8">
          <style>
@@ -27,13 +27,69 @@
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             color:white;
         }
+        .projeto {
+            width: 25%;
+        }
+
+        .projeto img{
+            width: 100%;
+        }
+
+        .projeto{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80, 34, 34);
+    gap: 10px;
+    padding: 15px;
+    text-align: center;
+}
     </style>
 </head>
 <body background="https://4kwallpapers.com/images/wallpapers/spider-man-across-3840x2160-11476.png"
     style="background-size: cover" >
 <body>
+
+    <div class="dropdown">
+        <a href="#" class="dropbtn">Projetos</a>
+        <div class="dropdown-content">
+            <a href="#">1º Trimestre</a>
+            <a href="#">2º Trimestre</a>
+            <a href="#">3º Trimestre</a>
+        </div>
+    </div>
     <div class="section" id="Projetos">
         <h1>Meus projetos:</h1>
+        <div class="flex">
+            <div class="projeto">
+                <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/d/4/7/d/1146221631114502.jpg">
+                <h1>Projeto 1</h1>
+                <p>projeto sobre componentes</p>
+            
+            
             </div>
+
+            <div class="projeto">
+                <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/d/4/7/d/1146221631114502.jpg">
+                <h1>Projeto 1</h1>
+                <p>projeto sobre componentes</p>
+            
+            
+            </div>
+
+            <div class="projeto">
+                <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/d/4/7/d/1146221631114502.jpg">
+                <h1>Projeto 1</h1>
+                <p>projeto sobre componentes</p>
+            
+            
+            </div>
+    
+        </div>
+    </div>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
