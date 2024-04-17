@@ -133,7 +133,6 @@ header a{
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -202,6 +201,64 @@ header a{
 }
 
 .paste-button:hover .dropdown-content {
+  display: block;
+}
+
+
+.button2 {
+  background-color: #070707;
+  color: #fdfbfb;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content2 {
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px;
+  background-color: #212121;
+  border: 2px solid #080808;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content2 a {
+  color: #fafdfa;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #4CAF50;
+  color: #212121;
+}
+
+.dropdown-content2 a:focus {
+  background-color: #212121;
+  color: #4CAF50;
+}
+
+.dropdown-content2 #top:hover {
+  border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content2 #bottom:hover {
+  border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button2:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content2 {
   display: block;
 }
 
