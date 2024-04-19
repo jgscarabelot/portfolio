@@ -262,5 +262,6 @@ header a{
   display: block;
 }
 
-
-
+#footer{
+  position: fixed;
+}
